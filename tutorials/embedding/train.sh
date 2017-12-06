@@ -1,4 +1,5 @@
 python word2vec_optimized.py \
   --train_data=text8 \
   --eval_data=questions-words.txt \
-  --save_path=train
+  --save_path=train \
+  --epochs_to_train 1000
